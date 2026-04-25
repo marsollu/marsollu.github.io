@@ -1,0 +1,19 @@
+# GitHub Pages Configuration
+
+# Site Configuration
+title: "Marsollu - Meus Aplicativos"
+description: "Políticas de privacidade e documentação dos aplicativos Marsollu"
+url: "https://marsollu.github.io"
+
+# Theme
+theme: jekyll-default
+
+# Author (optional - remove if you don't want author in header)
+# author:
+
+# Exclude files from processing
+exclude:
+  - .git
+  - .gitignore
+  - node_modules
+  - vendor
