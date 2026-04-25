@@ -1,7 +1,3 @@
-# Marsollu - Meus Aplicativos
-
-Bem-vindo ao site oficial dos aplicativos desenvolvidos por Marsollu. Aqui você encontra informações sobre nossos apps e suas políticas.
-
 ## 📱 Aplicativos
 
 ### [Renda Fácil](./policies/renda-facil/)
