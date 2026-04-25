@@ -6,7 +6,7 @@ description: "Políticas de privacidade e documentação dos aplicativos Marsoll
 url: "https://marsollu.github.io"
 
 # Theme
-theme: jekyll-default
+theme: jekyll-theme-cayman
 
 # Author (optional - remove if you don't want author in header)
 # author:
