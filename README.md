@@ -23,6 +23,18 @@ Um aplicativo de quiz sobre biologia para aprender e testar seus conhecimentos.
 **Links:**
 - [Política de Privacidade](./policies/bioquiz/privacy-pt.md)
 
+---
+
+### [Equilibrium](./policies/equilibrium/)
+
+A mobile game focused on balance and challenge.
+
+- Local gameplay with progress tracking
+- Optional ad-removal purchase
+
+**Links:**
+- [Privacy Policy](./policies/equilibrium/privacy-en.md)
+
 ## 📋 Documentação
 
 - [Políticas](./policies/) - Políticas de privacidade e documentação de todos os aplicativos
