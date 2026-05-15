@@ -35,6 +35,19 @@ A mobile game focused on balance and challenge.
 **Links:**
 - [Privacy Policy](./policies/equilibrium/privacy-en.md)
 
+---
+
+### [Meus Aluguéis](./policies/meus-alugueis/)
+
+Um aplicativo para gerenciamento de imóveis e contratos de aluguel.
+
+- Cadastre imóveis, inquilinos e contratos
+- Acompanhe histórico de pagamentos
+- Funciona 100% localmente no seu dispositivo
+
+**Links:**
+- [Política de Privacidade](./policies/meus-alugueis/privacy-pt.md)
+
 ## 📋 Documentação
 
 - [Políticas](./policies/) - Políticas de privacidade e documentação de todos os aplicativos
