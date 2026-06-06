@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Políticas de Privacidade — AppSollu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/doc.css" />
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+    <span class="theme-toggle__icon">🌙</span>
+  </button>
+
+  <header class="doc-hero">
+    <div class="doc-hero__inner">
+      <a class="doc-back" href="../index.html">&larr; AppSollu</a>
+      <h1 class="doc-hero__title">Políticas de Privacidade</h1>
+    </div>
+  </header>
+
+  <main class="doc">
+    <ul class="policy-list">
+      <li><a href="renda-facil/privacy-pt.html"><strong>Renda Fácil</strong><span>Português</span></a></li>
+      <li><a href="bioquiz/privacy-pt.html"><strong>BioQuiz</strong><span>Português</span></a></li>
+      <li><a href="equilibrium/privacy-en.html"><strong>Equilibrium</strong><span>English</span></a></li>
+    </ul>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> AppSollu. Todos os direitos reservados.</p>
+    <p class="footer__links"><a href="../index.html">Voltar ao início</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.getElementById('theme-toggle');
+      var icon = toggle.querySelector('.theme-toggle__icon');
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      apply(theme);
+      toggle.addEventListener('click', function () {
+        theme = (root.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+        localStorage.setItem('theme', theme);
+        apply(theme);
+      });
+      function apply(t) {
+        root.setAttribute('data-theme', t);
+        icon.textContent = (t === 'dark') ? '☀️' : '🌙';
+      }
+    })();
+  </script>
+</body>
+</html>

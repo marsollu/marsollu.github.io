@@ -1,6 +1,6 @@
 # Política de Privacidade - Renda Fácil
 
-**Última Atualização: 25 de Abril de 2026**
+**Última Atualização: 6 de Junho de 2026**
 
 ## 1. Quem Somos
 
@@ -8,11 +8,13 @@ O "Renda Fácil" é um aplicativo de cálculo de rentabilidade de investimentos 
 
 ## 2. Dados que Coletamos
 
-Nós não coletamos nenhum dado pessoal. O aplicativo funciona 100% localmente no seu celular:
+Nós não coletamos diretamente dados pessoais identificáveis e não operamos servidores próprios para armazenar suas informações. O conteúdo que você cria no app funciona 100% localmente no seu celular:
 
 - Seus cálculos e simulações permanecem apenas no seu dispositivo
 - Suas configurações de taxas (SELIC, CDI, IPCA) são salvas localmente
-- Nenhuma informação sua é enviada para nossos servidores
+- Não exigimos cadastro, login, e-mail ou outras informações pessoais
+
+Utilizamos, porém, serviços do Google (Google Analytics para Firebase e Google AdMob) que coletam dados de uso e identificadores do dispositivo para fins de análise e publicidade, conforme descrito nas seções 5 e 6 abaixo.
 
 ## 3. APIs Públicas
 
@@ -33,7 +35,36 @@ Todos os seus dados ficam no seu telefone:
 
 Nada sai do seu dispositivo a menos que você compartilhe intencionalmente (ex: captura de tela).
 
-## 5. Publicidade e Google AdMob
+## 5. Serviços do Google (Análise de Uso e Publicidade)
+
+Para entender como o app é utilizado e para mantê-lo gratuito, usamos dois serviços do Google: **Google Analytics para Firebase** (análise de uso) e **Google AdMob** (publicidade).
+
+### Google Analytics para Firebase
+
+O Firebase Analytics nos ajuda a entender, de forma agregada e anônima, como o app é usado — por exemplo, quais telas são mais acessadas e se há erros — para que possamos melhorá-lo. Não usamos esses dados para identificar você pessoalmente.
+
+**Dados coletados automaticamente pelo Firebase Analytics:**
+
+- Identificador da instância do app (app-instance ID, um número aleatório que identifica a instalação e é redefinido ao reinstalar o app ou redefinir o ID de publicidade)
+- Identificador de publicidade do dispositivo (Advertising ID), quando disponível
+- Tipo, modelo e fabricante do dispositivo
+- Versão do sistema operacional
+- País/região aproximada (com base no endereço IP)
+- Idioma do dispositivo
+- Eventos de uso, como abertura do app, primeiras execuções, atualizações e duração das sessões
+
+Esses dados são coletados e processados pelo Google de acordo com as políticas do Google. Para mais informações:
+
+- [Política de Privacidade do Google](https://policies.google.com/privacy)
+- [Privacidade e segurança no Firebase](https://firebase.google.com/support/privacy)
+- [Como o Google usa informações de sites ou apps que utilizam seus serviços](https://policies.google.com/technologies/partner-sites)
+
+**Como desativar a coleta de análise:**
+
+- Você pode limitar o uso do seu Advertising ID e a personalização nas Configurações do dispositivo (em Android: **Configurações → Google → Anúncios**)
+- A redefinição do seu Advertising ID também redefine o identificador de instância do app usado pelo Firebase
+
+### Google AdMob
 
 Para manter o Renda Fácil gratuito, exibimos anúncios através do Google Mobile Ads.
 
@@ -76,6 +107,7 @@ Nós não vendemos seus dados pessoais para terceiros. No entanto, compartilhamo
 
 **Parceiros que recebem dados:**
 - **Google AdMob** - Para exibição e personalização de anúncios
+- **Google Analytics para Firebase** - Para análise de uso e melhoria do aplicativo
 
 ### Obrigações Legais
 
@@ -91,7 +123,9 @@ Como tudo fica local no seu celular, a segurança depende principalmente do seu 
 
 ## 8. Retenção de Dados
 
-Seus dados desaparecem quando você desinstala o app. Você também pode limpar tudo a qualquer momento nas Configurações do app (botão "Restaurar Padrões").
+Seus dados locais desaparecem quando você desinstala o app. Você também pode limpar tudo a qualquer momento nas Configurações do app (botão "Restaurar Padrões").
+
+Os dados de análise e publicidade tratados pelo Google (Firebase Analytics e AdMob) são retidos de acordo com as políticas do próprio Google.
 
 ## 9. Seus Direitos
 

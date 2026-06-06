@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AppSollu — Aplicativos para o dia a dia</title>
+  <meta name="description" content="Portfólio de aplicativos Android desenvolvidos por AppSollu: finanças, educação e jogos. Disponíveis na Google Play." />
+  <meta name="google-site-verification" content="lP3icoCF2-sartfRwZrNePBZs7DRYz0ODd6z1LSSgpo" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AppSollu — Aplicativos para o dia a dia" />
+  <meta property="og:description" content="Aplicativos Android de finanças, educação e jogos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://marsollu.github.io" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Theme toggle -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+    <span class="theme-toggle__icon">🌙</span>
+  </button>
+
+  <main>
+    <!-- Apps -->
+    <section id="apps" class="section">
+      <div class="section__head">
+        <h2 class="section__title">Aplicativos</h2>
+        <p class="section__lead">Escolha um app abaixo para baixar ou ver os detalhes.</p>
+      </div>
+
+      <div class="apps-grid">
+
+        <!-- Renda Fácil -->
+        <article class="app-card">
+          <div class="app-card__top">
+            <img class="app-card__icon" src="assets/icons/renda-facil.png" alt="Ícone do Renda Fácil"
+                 onerror="this.classList.add('app-card__icon--fallback');this.alt='RF'" />
+            <div>
+              <h3 class="app-card__name">Renda Fácil</h3>
+              <span class="app-card__tag">Finanças</span>
+            </div>
+          </div>
+          <p class="app-card__desc">
+            Calcule a rentabilidade de investimentos de renda fixa de forma rápida e intuitiva.
+          </p>
+          <ul class="app-card__features">
+            <li>Rendimentos de CDB, Tesouro Direto e mais</li>
+            <li>Simulação de diferentes cenários de taxa</li>
+            <li>Funciona 100% offline no dispositivo</li>
+          </ul>
+          <div class="app-card__actions">
+            <a class="btn-store" href="https://play.google.com/store/apps/details?id=com.marsollu.renda_facil" target="_blank" rel="noopener">
+              <span class="btn-store__label"><small>Disponível na</small><strong>Google Play</strong></span>
+            </a>
+          </div>
+        </article>
+
+        <!-- BioQuiz -->
+        <article class="app-card">
+          <div class="app-card__top">
+            <img class="app-card__icon" src="assets/icons/bioquiz.png" alt="Ícone do BioQuiz"
+                 onerror="this.classList.add('app-card__icon--fallback');this.alt='BQ'" />
+            <div>
+              <h3 class="app-card__name">BioQuiz</h3>
+              <span class="app-card__tag">Educação</span>
+            </div>
+          </div>
+          <p class="app-card__desc">
+            Aprenda e teste seus conhecimentos de biologia com quizzes para todos os níveis.
+          </p>
+          <ul class="app-card__features">
+            <li>Questões de biologia variadas</li>
+            <li>Acompanhamento do seu progresso</li>
+            <li>Ideal para revisão e estudo</li>
+          </ul>
+          <div class="app-card__actions">
+            <a class="btn-store" href="https://play.google.com/store/apps/details?id=com.marsollu.bioquiz" target="_blank" rel="noopener">
+              <span class="btn-store__label"><small>Disponível na</small><strong>Google Play</strong></span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Equilibrium -->
+        <article class="app-card">
+          <div class="app-card__top">
+            <img class="app-card__icon" src="assets/icons/equilibrium.png" alt="Ícone do Equilibrium"
+                 onerror="this.classList.add('app-card__icon--fallback');this.alt='EQ'" />
+            <div>
+              <h3 class="app-card__name">Equilibrium</h3>
+              <span class="app-card__tag">Jogo</span>
+            </div>
+          </div>
+          <p class="app-card__desc">
+            Um jogo de quebra-cabeças que desafia seu raciocínio lógico: equilibre as peças
+            e encontre a solução de cada nível.
+          </p>
+          <ul class="app-card__features">
+            <li>Puzzles que exercitam lógica e estratégia</li>
+            <li>Níveis com dificuldade progressiva</li>
+            <li>Jogabilidade offline com progresso salvo</li>
+          </ul>
+          <div class="app-card__actions">
+            <a class="btn-store" href="https://play.google.com/store/apps/details?id=com.marsollu.equilibrium" target="_blank" rel="noopener">
+              <span class="btn-store__label"><small>Disponível na</small><strong>Google Play</strong></span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+      <div class="contact">
+        <h2 class="section__title">Fale com a gente</h2>
+        <p>Dúvidas sobre os aplicativos ou políticas de privacidade?</p>
+        <a class="btn btn--primary" href="mailto:appsollu@gmail.com">appsollu@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> AppSollu. Todos os direitos reservados.</p>
+    <p class="footer__links">
+      <a href="./policies/index.html">Políticas de Privacidade</a>
+    </p>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle (persisted)
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.getElementById('theme-toggle');
+      var icon = toggle.querySelector('.theme-toggle__icon');
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      apply(theme);
+      toggle.addEventListener('click', function () {
+        theme = (root.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+        localStorage.setItem('theme', theme);
+        apply(theme);
+      });
+      function apply(t) {
+        root.setAttribute('data-theme', t);
+        icon.textContent = (t === 'dark') ? '☀️' : '🌙';
+      }
+    })();
+  </script>
+</body>
+</html>

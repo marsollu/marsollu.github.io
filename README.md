@@ -1,61 +1,31 @@
+# AppSollu
+
+Site de portfólio dos aplicativos Android desenvolvidos por **AppSollu**.
+
+🌐 **Site:** https://marsollu.github.io
+
+A landing page é renderizada a partir de [`index.html`](./index.html) (HTML/CSS custom).
+
 ## 📱 Aplicativos
 
-### [Renda Fácil](./policies/renda-facil/)
+| App | Categoria | Política de Privacidade |
+|---|---|---|
+| Renda Fácil | Finanças | [PT](./policies/renda-facil/privacy-pt.md) |
+| BioQuiz | Educação | [PT](./policies/bioquiz/privacy-pt.md) |
+| Equilibrium | Jogo | [EN](./policies/equilibrium/privacy-en.md) |
 
-Um aplicativo intuitivo para cálculo de rentabilidade de investimentos de renda fixa.
+As páginas de privacidade publicadas no site são `.html` estáticas geradas a
+partir desses `.md`. Após editar um `.md`, rode:
 
-- Calcule rendimentos de CDB, Tesouro Direto e outros investimentos
-- Simule diferentes cenários de taxa
-- Funciona 100% localmente no seu dispositivo
+```bash
+python build_policies.py
+```
 
-**Links:**
-- [Política de Privacidade](./policies/renda-facil/privacy-pt.md)
+## 🖼️ Ícones
 
----
-
-### [BioQuiz](./policies/bioquiz/)
-
-Um aplicativo de quiz sobre biologia para aprender e testar seus conhecimentos.
-
-- Questões de biologia para todos os níveis
-- Acompanhe seu progresso de aprendizado
-
-**Links:**
-- [Política de Privacidade](./policies/bioquiz/privacy-pt.md)
-
----
-
-### [Equilibrium](./policies/equilibrium/)
-
-A mobile game focused on balance and challenge.
-
-- Local gameplay with progress tracking
-- Optional ad-removal purchase
-
-**Links:**
-- [Privacy Policy](./policies/equilibrium/privacy-en.md)
-
----
-
-### [Meus Aluguéis](./policies/meus-alugueis/)
-
-Um aplicativo para gerenciamento de imóveis e contratos de aluguel.
-
-- Cadastre imóveis, inquilinos e contratos
-- Acompanhe histórico de pagamentos
-- Funciona 100% localmente no seu dispositivo
-
-**Links:**
-- [Política de Privacidade](./policies/meus-alugueis/privacy-pt.md)
-
-## 📋 Documentação
-
-- [Políticas](./policies/) - Políticas de privacidade e documentação de todos os aplicativos
+Os ícones dos apps ficam em [`assets/icons/`](./assets/icons/). Veja as
+instruções de nomes e tamanhos no [README da pasta](./assets/icons/README.md).
 
 ## 📧 Contato
 
-Se você tiver dúvidas sobre nossos aplicativos ou políticas:
-
 - Email: appsollu@gmail.com
-
----
