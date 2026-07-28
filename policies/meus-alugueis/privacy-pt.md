@@ -1,10 +1,10 @@
-# Política de Privacidade - Meus Aluguéis
+# Política de Privacidade - Aluguel Fácil
 
-**Última Atualização: 06 de Julho de 2026**
+**Última Atualização: 28 de Julho de 2026**
 
 ## 1. Quem Somos
 
-O "Meus Aluguéis" é um aplicativo para gerenciamento de imóveis e contratos de aluguel.
+O "Aluguel Fácil" é um aplicativo para gerenciamento de imóveis e contratos de aluguel.
 
 ## 2. Dados que Coletamos
 
@@ -14,7 +14,7 @@ Nós não coletamos diretamente dados pessoais identificáveis e não operamos s
 - Suas configurações e preferências são salvas localmente
 - Não exigimos cadastro, login, e-mail ou outras informações pessoais
 
-Utilizamos, porém, serviços do Google (Google Analytics para Firebase e Google AdMob) que coletam dados de uso e identificadores do dispositivo para fins de análise e publicidade, conforme descrito nas seções 4 e 5 abaixo.
+Utilizamos, porém, serviços do Google (Google Analytics para Firebase, Google AdMob e Google Play Faturamento) que coletam dados de uso, identificadores do dispositivo e informações de assinatura para fins de análise, publicidade e processamento de pagamentos, conforme descrito nas seções 4, 5 e 6 abaixo.
 
 ## 3. Armazenamento Local
 
@@ -57,7 +57,7 @@ Esses dados são coletados e processados pelo Google de acordo com as políticas
 
 ### Google AdMob
 
-Para manter o Meus Aluguéis gratuito, exibimos anúncios através do Google Mobile Ads.
+Na versão gratuita, exibimos anúncios através do Google Mobile Ads para manter o Aluguel Fácil acessível. Assinantes do plano premium (veja a seção 5) não visualizam anúncios.
 
 ### Dados Coletados para Publicidade
 
@@ -90,15 +90,32 @@ Você pode gerenciar suas preferências de publicidade:
 
 A política completa do Google está em https://policies.google.com/privacy
 
-## 5. Terceiros e Parceiros
+## 5. Assinatura Premium (Google Play Faturamento)
+
+O Aluguel Fácil oferece um plano de assinatura opcional, com cobrança **mensal ou anual**, que remove os anúncios e/ou libera recursos adicionais do app.
+
+Todo o processamento de pagamento é feito pelo **Google Play Faturamento (Google Play Billing)**. Nós não temos acesso a dados de cartão de crédito, informações bancárias ou outros dados de pagamento — essas informações ficam exclusivamente com o Google.
+
+**Como funciona:**
+
+- A assinatura é contratada, gerenciada, renovada e cancelada diretamente pela sua conta Google Play, em **Play Store → Menu → Pagamentos e assinaturas → Assinaturas**
+- A renovação é automática ao final de cada ciclo (mensal ou anual), salvo cancelamento prévio feito por você na Google Play
+- O app armazena localmente apenas o status da sua assinatura (ativa, expirada ou cancelada), para liberar ou não os recursos premium — esse status é verificado junto ao Google Play
+- Não guardamos histórico de cobranças, valores pagos ou dados do meio de pagamento em nossos sistemas, pois não operamos servidores próprios
+
+Para dúvidas sobre cobranças, reembolsos ou cancelamento de assinatura, consulte a [Central de Ajuda do Google Play](https://support.google.com/googleplay) ou a [Política de Privacidade do Google](https://policies.google.com/privacy).
+
+## 6. Terceiros e Parceiros
 
 ### Compartilhamento de Dados
 
 Nós não vendemos seus dados pessoais para terceiros. No entanto, compartilhamos informações limitadas com parceiros comerciais terceirizados para fins operacionais:
 
 **Parceiros que recebem dados:**
+
 - **Google AdMob** - Para exibição e personalização de anúncios
 - **Google Analytics para Firebase** - Para análise de uso e melhoria do aplicativo
+- **Google Play Faturamento** - Para processamento de assinaturas e pagamentos
 
 ### Obrigações Legais
 
@@ -108,31 +125,32 @@ Os parceiros terceirizados se comprometem a:
 - Usar as informações apenas para os fins especificados
 - Manter a confidencialidade das informações
 
-## 6. Segurança
+## 7. Segurança
 
 Como tudo fica local no seu celular, a segurança depende principalmente do seu dispositivo. Recomendamos manter seu telefone protegido com senha ou biometria.
 
-## 7. Retenção de Dados
+## 8. Retenção de Dados
 
 Seus dados locais desaparecem quando você desinstala o app. Você também pode limpar tudo a qualquer momento nas Configurações do app.
 
-Os dados de análise e publicidade tratados pelo Google (Firebase Analytics e AdMob) são retidos de acordo com as políticas do próprio Google.
+Os dados de análise, publicidade e assinatura tratados pelo Google (Firebase Analytics, AdMob e Google Play Faturamento) são retidos de acordo com as políticas do próprio Google.
 
-## 8. Seus Direitos
+## 9. Seus Direitos
 
 Como todos os dados são seus e locais:
 
 - Você tem acesso total aos seus dados
 - Você pode apagar tudo quando quiser
+- Você pode gerenciar ou cancelar sua assinatura a qualquer momento pela Google Play
 
-## 9. Crianças
+## 10. Crianças
 
 Este app não é direcionado para menores de 18 anos. Se você é responsável por uma criança usando este app, saiba que não coletamos dados dela.
 
-## 10. Mudanças nesta Política
+## 11. Mudanças nesta Política
 
 Podemos atualizar esta política quando necessário. Se houver mudanças importantes, informaremos você através do app ou play store.
 
-## 11. Lei Aplicável
+## 12. Lei Aplicável
 
 Esta política segue as leis brasileiras, especialmente a LGPD (Lei Geral de Proteção de Dados).

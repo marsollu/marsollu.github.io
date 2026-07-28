@@ -13,9 +13,10 @@ POLICIES = ROOT / "policies"
 
 # (markdown de origem, html de saída, idioma, título do app)
 DOCS = [
-    ("renda-facil/privacy-pt.md", "renda-facil/privacy-pt.html", "pt-BR", "Renda Fácil"),
-    ("bioquiz/privacy-pt.md",     "bioquiz/privacy-pt.html",     "pt-BR", "BioQuiz"),
-    ("equilibrium/privacy-en.md", "equilibrium/privacy-en.html", "en",    "Equilibrium"),
+    ("renda-facil/privacy-pt.md",   "renda-facil/privacy-pt.html",   "pt-BR", "Renda Fácil"),
+    ("bioquiz/privacy-pt.md",       "bioquiz/privacy-pt.html",       "pt-BR", "BioQuiz"),
+    ("equilibrium/privacy-en.md",   "equilibrium/privacy-en.html",   "en",    "Equilibrium"),
+    ("meus-alugueis/privacy-pt.md", "meus-alugueis/privacy-pt.html", "pt-BR", "Aluguel Fácil"),
 ]
 
 SHELL = """<!DOCTYPE html>
