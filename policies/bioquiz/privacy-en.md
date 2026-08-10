@@ -1,6 +1,6 @@
 # Privacy Policy - BioQuiz
 
-**Last Updated: May 18, 2026**
+**Last Updated: August 10, 2026**
 
 This Privacy Policy applies to the **BioQuiz** app (the "App") and explains how we handle your information when you use the App.
 
@@ -8,15 +8,17 @@ We may update this Privacy Policy from time to time. When we do, we will revise 
 
 ## 1. Who We Are
 
-BioQuiz is a biology quiz app that runs locally on your device. We do not require you to create an account, and we do not operate our own servers to receive, store, or process your personal information.
+BioQuiz is a biology quiz app whose content runs locally on your device. We do not require you to create an account, and we do not operate our own servers to receive, store, or process your personal information.
 
 ## 2. Information We Collect
 
-We do not directly collect personal information from users.
+We do not directly collect personal information from users, and we do not operate our own servers.
 
-The App asks only for your **name** during the initial setup, for the sole purpose of personalizing your experience. This name is stored exclusively on your device and is never transmitted to our servers.
+The App asks only for your **name** during the initial setup, for the sole purpose of personalizing your experience. This name is stored exclusively on your device and is never transmitted to our servers or to third parties.
 
 The App does not request your email address, phone number, contacts, photos, precise location, camera access, or other personally identifiable information.
+
+However, we use Google services (**Google Analytics for Firebase**, **Firebase Crashlytics**, and **Google AdMob**) that collect usage data, crash logs, diagnostic information, and device identifiers for analytics, stability, and advertising purposes. This data is transmitted off the device and processed by Google, as described in the sections below.
 
 ### Data Stored Locally
 
@@ -29,6 +31,46 @@ The App may store the following data locally on your device:
 - ad-removal entitlement status, when applicable.
 
 This data is used only to provide the App experience on your device. It is not sent to our own servers.
+
+### Google Analytics for Firebase (Usage Analytics)
+
+Firebase Analytics helps us understand, in an aggregated and anonymous way, how the App is used — for example, which screens and quizzes are accessed most and whether errors occur — so that we can improve it. We do not use this data to identify you personally, and the name you enter in the App is not sent to Firebase.
+
+**Data automatically collected by Firebase Analytics:**
+
+- app-instance ID (a random number that identifies the installation and is reset when you reinstall the App or reset your advertising ID);
+- device advertising identifier (Advertising ID), where available;
+- device type, model, and manufacturer;
+- operating system version;
+- approximate country/region (based on IP address);
+- device language;
+- usage events, such as app opens, first launches, updates, screens viewed, and session duration.
+
+**How to limit analytics collection:**
+
+- You can limit the use of your Advertising ID and ad personalization in your device settings (on Android: **Settings → Google → Ads**).
+- Resetting your Advertising ID also resets the app-instance ID used by Firebase.
+
+### Firebase Crashlytics (Crash Reporting)
+
+The App uses **Firebase Crashlytics** to detect, log, and fix crashes and errors, keeping the App stable. When a crash occurs, a report is automatically sent to Google.
+
+**Data collected by Crashlytics:**
+
+- crash and error logs (stack traces), including when they occurred;
+- Firebase Installation ID;
+- device type, model, manufacturer, and orientation;
+- operating system version and App version;
+- device state at the time of the crash (for example, available memory and storage, battery level, whether the device is rooted/jailbroken);
+- logs and technical events leading up to the crash.
+
+These reports are used solely for diagnosing and fixing problems. We do not include personal data, such as the name you entered in the App, in crash reports.
+
+Analytics and crash data are collected and processed by Google according to Google's own policies. For more information:
+
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [Privacy and Security in Firebase](https://firebase.google.com/support/privacy)
+- [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
 
 ### Advertising Data
 
@@ -65,6 +107,8 @@ We use local App data only to:
 - display your statistics inside the App;
 - recognize whether ads should be removed after a valid purchase.
 
+We use the data collected by Firebase Analytics only in aggregate, to understand how the App is used and to prioritize improvements, and the data collected by Firebase Crashlytics only to identify and fix crashes, errors, and stability issues.
+
 Google AdMob may use advertising data as described in Google's policies, including to provide ads, measure ad performance, prevent fraud and abuse, and improve advertising services.
 
 ## 4. How We Keep Your Information
@@ -73,7 +117,7 @@ Usage data, progress, and preferences are stored locally on your device. We do n
 
 Local data remains on your device until you delete it, clear the App data, reset the device, or uninstall the App.
 
-Advertising and app store data handled by Google, AdMob, Google Play, Apple, or other store providers is retained according to those providers' own policies.
+Analytics, crash, advertising, and app store data handled by Google (Firebase Analytics, Firebase Crashlytics, AdMob, and Google Play), Apple, or other providers is retained according to those providers' own policies. Crashlytics crash reports are retained by Google for up to 90 days.
 
 ## 5. Your Rights and Options
 
@@ -101,11 +145,24 @@ For iOS devices:
 
 You may still see ads after changing these settings, but they may be less personalized.
 
+### Limit Analytics and Diagnostics Collection
+
+You can reset or limit the use of your Advertising ID in your device settings (same path described above), which also resets the app-instance ID used by Firebase Analytics.
+
+Uninstalling the App stops the collection of analytics and crash report data.
+
 ## 6. How We Share Information
 
-We do not sell, rent, or share personal information collected directly by us, because we do not directly collect such information.
+We do not sell or rent your personal data. We do not share personal information collected directly by us, because we do not directly collect such information.
 
-Third-party services used by the App may collect, process, or share data according to their own privacy policies. In particular, Google AdMob may process advertising-related data as described by Google.
+However, the App transmits usage, diagnostic, and advertising data to the following partners, which process it according to their own privacy policies:
+
+- **Google Analytics for Firebase** — for usage analytics and App improvement;
+- **Firebase Crashlytics** — for crash reporting and stability diagnostics;
+- **Google AdMob** — for serving, measuring, and personalizing ads;
+- **Google Play / Apple App Store** — to process the optional ad-removal purchase.
+
+These partners commit to complying with applicable data protection laws (including the LGPD), using the information only for the specified purposes, and maintaining its confidentiality.
 
 ## 7. Security
 
@@ -137,14 +194,29 @@ If you have questions about this Privacy Policy, please contact us by email:
 
 appsollu@gmail.com
 
-## Appendix A - Advertising Network
+## Appendix A - Third-Party Services (SDKs)
 
-The App uses the following advertising service:
+The App uses the following third-party SDKs, all provided by Google:
+
+### Google Analytics for Firebase
+
+Usage analytics service. Collects usage events and device identifiers, as described in section 2.
+
+- [Privacy and Security in Firebase](https://firebase.google.com/support/privacy)
+- [Google Privacy Policy](https://policies.google.com/privacy)
+
+### Firebase Crashlytics
+
+Crash reporting service. Collects crash logs and diagnostic information, as described in section 2.
+
+- [Privacy and Security in Firebase](https://firebase.google.com/support/privacy)
+- [Data collected by Crashlytics](https://firebase.google.com/support/privacy#crashlytics)
 
 ### Google AdMob
 
-Google AdMob is an advertising service provided by Google. For more information about how Google handles data, please review:
+Advertising service provided by Google. For more information about how Google handles data, please review:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [Google AdMob Help](https://support.google.com/admob)
 - [Google Ads Settings](https://adssettings.google.com)
+- [Google Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure)

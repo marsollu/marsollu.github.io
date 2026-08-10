@@ -1,6 +1,6 @@
 # Política de Privacidade - BioQuiz
 
-**Última atualização: 18 de Maio de 2026**
+**Última atualização: 10 de Agosto de 2026**
 
 Esta Política de Privacidade se aplica ao aplicativo **BioQuiz** (o "App") e explica como tratamos suas informações quando você utiliza o App.
 
@@ -8,15 +8,17 @@ Podemos atualizar esta Política de Privacidade periodicamente. Quando isso acon
 
 ## 1. Quem Somos
 
-O BioQuiz é um aplicativo de quizzes de biologia que funciona localmente no seu dispositivo. Não exigimos a criação de uma conta nem operamos servidores próprios para receber, armazenar ou processar suas informações pessoais.
+O BioQuiz é um aplicativo de quizzes de biologia cujo conteúdo funciona localmente no seu dispositivo. Não exigimos a criação de uma conta nem operamos servidores próprios para receber, armazenar ou processar suas informações pessoais.
 
 ## 2. Informações que Coletamos
 
-Nós não coletamos diretamente informações pessoais dos usuários.
+Nós não coletamos diretamente informações pessoais dos usuários e não mantemos servidores próprios.
 
-O App solicita apenas o seu **nome** durante o cadastro inicial, com o objetivo de personalizar a sua experiência. Esse nome é armazenado exclusivamente no seu dispositivo e nunca é transmitido para nossos servidores.
+O App solicita apenas o seu **nome** durante o cadastro inicial, com o objetivo de personalizar a sua experiência. Esse nome é armazenado exclusivamente no seu dispositivo e nunca é transmitido para nossos servidores nem para terceiros.
 
 O App não solicita e-mail, telefone, contatos, fotos, localização precisa, acesso à câmera ou outras informações pessoalmente identificáveis.
+
+Utilizamos, porém, serviços do Google (**Google Analytics para Firebase**, **Firebase Crashlytics** e **Google AdMob**) que coletam dados de uso, registros de falhas, informações de diagnóstico e identificadores do dispositivo para fins de análise, estabilidade e publicidade. Esses dados são transmitidos para fora do dispositivo e processados pelo Google, conforme descrito nas seções a seguir.
 
 ### Dados Armazenados Localmente
 
@@ -29,6 +31,46 @@ O App pode armazenar os seguintes dados localmente no seu dispositivo:
 - status de remoção de anúncios, quando aplicável.
 
 Esses dados são usados apenas para fornecer a experiência do App no seu dispositivo. Eles não são enviados para nossos servidores.
+
+### Google Analytics para Firebase (Análise de Uso)
+
+O Firebase Analytics nos ajuda a entender, de forma agregada e anônima, como o App é usado — por exemplo, quais telas e quizzes são mais acessados e se há erros — para que possamos melhorá-lo. Não usamos esses dados para identificar você pessoalmente e o nome que você cadastra no App não é enviado ao Firebase.
+
+**Dados coletados automaticamente pelo Firebase Analytics:**
+
+- identificador da instância do app (app-instance ID, um número aleatório que identifica a instalação e é redefinido ao reinstalar o App ou redefinir o ID de publicidade);
+- identificador de publicidade do dispositivo (Advertising ID), quando disponível;
+- tipo, modelo e fabricante do dispositivo;
+- versão do sistema operacional;
+- país/região aproximada (com base no endereço IP);
+- idioma do dispositivo;
+- eventos de uso, como abertura do App, primeiras execuções, atualizações, telas visitadas e duração das sessões.
+
+**Como desativar a coleta de análise:**
+
+- Você pode limitar o uso do seu Advertising ID e a personalização nas Configurações do dispositivo (em Android: **Configurações → Google → Anúncios**).
+- A redefinição do seu Advertising ID também redefine o identificador de instância do App usado pelo Firebase.
+
+### Firebase Crashlytics (Relatórios de Falhas)
+
+O App utiliza o **Firebase Crashlytics** para detectar, registrar e corrigir falhas e erros, mantendo o App estável. Quando ocorre uma falha, um relatório é enviado automaticamente ao Google.
+
+**Dados coletados pelo Crashlytics:**
+
+- registros de falhas e erros (stack traces), incluindo o momento em que ocorreram;
+- identificador de instalação do Firebase (Firebase Installation ID);
+- tipo, modelo, fabricante e orientação do dispositivo;
+- versão do sistema operacional e versão do App;
+- estado do dispositivo no momento da falha (por exemplo, memória e armazenamento disponíveis, nível de bateria, se o dispositivo está com root/jailbreak);
+- registros (logs) e eventos técnicos que antecederam a falha.
+
+Esses relatórios são usados exclusivamente para diagnóstico e correção de problemas. Não incluímos dados pessoais, como o nome cadastrado no App, nos relatórios de falhas.
+
+Os dados de análise e de falhas são coletados e processados pelo Google de acordo com as políticas do Google. Para mais informações:
+
+- [Política de Privacidade do Google](https://policies.google.com/privacy)
+- [Privacidade e segurança no Firebase](https://firebase.google.com/support/privacy)
+- [Como o Google usa informações de sites ou apps que utilizam seus serviços](https://policies.google.com/technologies/partner-sites)
 
 ### Dados de Publicidade
 
@@ -65,6 +107,8 @@ Utilizamos os dados locais do App apenas para:
 - exibir suas estatísticas dentro do App;
 - reconhecer se os anúncios devem ser removidos após uma compra válida.
 
+Utilizamos os dados coletados pelo Firebase Analytics apenas de forma agregada, para entender como o App é utilizado e priorizar melhorias, e os dados do Firebase Crashlytics apenas para identificar e corrigir falhas, erros e problemas de estabilidade.
+
 O Google AdMob pode usar dados de publicidade conforme descrito nas políticas do Google, incluindo para exibir anúncios, mensurar o desempenho de anúncios, prevenir fraudes e abusos e melhorar os serviços de publicidade.
 
 ## 4. Como Armazenamos as Informações
@@ -73,7 +117,7 @@ Os dados de uso, progresso e preferências são armazenados localmente no seu di
 
 Os dados locais permanecem no seu dispositivo até que você os apague, limpe os dados do App, redefina o dispositivo ou desinstale o App.
 
-Dados de publicidade e da loja de aplicativos tratados pelo Google, AdMob, Google Play, Apple ou outros provedores são retidos de acordo com as políticas dos próprios provedores.
+Os dados de análise, falhas, publicidade e da loja de aplicativos tratados pelo Google (Firebase Analytics, Firebase Crashlytics, AdMob e Google Play), pela Apple ou por outros provedores são retidos de acordo com as políticas dos próprios provedores. Os relatórios de falhas do Crashlytics são retidos pelo Google por até 90 dias.
 
 ## 5. Seus Direitos e Opções
 
@@ -101,11 +145,24 @@ Para dispositivos iOS:
 
 Mesmo após alterar essas configurações, você ainda poderá ver anúncios, porém eles serão menos personalizados.
 
+### Limitar a Coleta de Análise e Diagnóstico
+
+Você pode redefinir ou limitar o uso do seu Advertising ID nas configurações do dispositivo (mesmo caminho descrito acima), o que também redefine o identificador de instância do App utilizado pelo Firebase Analytics.
+
+A desinstalação do App interrompe a coleta de dados de análise e de relatórios de falhas.
+
 ## 6. Como Compartilhamos as Informações
 
-Nós não vendemos, alugamos nem compartilhamos informações pessoais coletadas diretamente por nós, pois não realizamos esse tipo de coleta.
+Nós não vendemos nem alugamos seus dados pessoais. Não compartilhamos informações pessoais coletadas diretamente por nós, pois não realizamos esse tipo de coleta.
 
-Serviços de terceiros utilizados pelo App podem coletar, processar ou compartilhar dados de acordo com suas próprias políticas de privacidade. Em particular, o Google AdMob pode processar dados relacionados a publicidade conforme descrito pelo Google.
+No entanto, o App transmite dados de uso, diagnóstico e publicidade para os seguintes parceiros, que os processam de acordo com suas próprias políticas de privacidade:
+
+- **Google Analytics para Firebase** — para análise de uso e melhoria do App;
+- **Firebase Crashlytics** — para relatórios de falhas e diagnóstico de estabilidade;
+- **Google AdMob** — para exibição, mensuração e personalização de anúncios;
+- **Google Play / Apple App Store** — para processar a compra opcional de remoção de anúncios.
+
+Esses parceiros se comprometem a cumprir as leis de proteção de dados aplicáveis (incluindo a LGPD), a usar as informações apenas para os fins especificados e a manter a confidencialidade das informações.
 
 ## 7. Segurança
 
@@ -137,14 +194,29 @@ Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato pe
 
 appsollu@gmail.com
 
-## Apêndice A - Rede de Publicidade
+## Apêndice A - Serviços de Terceiros (SDKs)
 
-O App utiliza o seguinte serviço de publicidade:
+O App utiliza os seguintes SDKs de terceiros, todos fornecidos pelo Google:
+
+### Google Analytics para Firebase
+
+Serviço de análise de uso. Coleta eventos de uso e identificadores do dispositivo, conforme descrito na seção 2.
+
+- [Privacidade e segurança no Firebase](https://firebase.google.com/support/privacy)
+- [Política de Privacidade do Google](https://policies.google.com/privacy)
+
+### Firebase Crashlytics
+
+Serviço de relatórios de falhas. Coleta registros de falhas e informações de diagnóstico, conforme descrito na seção 2.
+
+- [Privacidade e segurança no Firebase](https://firebase.google.com/support/privacy)
+- [Dados coletados pelo Crashlytics](https://firebase.google.com/support/privacy#crashlytics)
 
 ### Google AdMob
 
-O Google AdMob é um serviço de publicidade fornecido pelo Google. Para mais informações sobre como o Google trata os dados, consulte:
+Serviço de publicidade fornecido pelo Google. Para mais informações sobre como o Google trata os dados, consulte:
 
 - [Política de Privacidade do Google](https://policies.google.com/privacy)
 - [Ajuda do Google AdMob](https://support.google.com/admob)
 - [Configurações de Anúncios do Google](https://adssettings.google.com)
+- [Divulgação de dados do Google Mobile Ads SDK](https://developers.google.com/admob/android/privacy/play-data-disclosure)
