@@ -11,7 +11,7 @@ A landing page é renderizada a partir de [`index.html`](./index.html) (HTML/CSS
 | App | Categoria | Política de Privacidade |
 |---|---|---|
 | Renda Fácil | Finanças | [PT](./policies/renda-facil/privacy-pt.md) |
-| BioQuiz | Educação | [PT](./policies/bioquiz/privacy-pt.md) |
+| BioQuiz | Educação | [PT](./policies/bioquiz/privacy-pt.md) · [EN](./policies/bioquiz/privacy-en.md) |
 | Equilibrium | Jogo | [EN](./policies/equilibrium/privacy-en.md) |
 
 As páginas de privacidade publicadas no site são `.html` estáticas geradas a

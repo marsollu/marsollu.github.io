@@ -15,6 +15,7 @@ POLICIES = ROOT / "policies"
 DOCS = [
     ("renda-facil/privacy-pt.md",   "renda-facil/privacy-pt.html",   "pt-BR", "Renda Fácil"),
     ("bioquiz/privacy-pt.md",       "bioquiz/privacy-pt.html",       "pt-BR", "BioQuiz"),
+    ("bioquiz/privacy-en.md",       "bioquiz/privacy-en.html",       "en",    "BioQuiz"),
     ("equilibrium/privacy-en.md",   "equilibrium/privacy-en.html",   "en",    "Equilibrium"),
     ("meus-alugueis/privacy-pt.md", "meus-alugueis/privacy-pt.html", "pt-BR", "Aluguel Fácil"),
 ]
