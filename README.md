@@ -14,6 +14,7 @@ A landing page é renderizada a partir de [`index.html`](./index.html) (HTML/CSS
 | BioQuiz | Educação | [PT](./policies/bioquiz/privacy-pt.md) · [EN](./policies/bioquiz/privacy-en.md) |
 | Equilibrium | Jogo | [EN](./policies/equilibrium/privacy-en.md) |
 | Kobe | Pets | [PT](./policies/kobe/privacy-pt.md) |
+| Despesas Pessoais | Finanças | [PT](./policies/despesas-pessoais/privacy-pt.md) |
 
 As páginas de privacidade publicadas no site são `.html` estáticas geradas a
 partir desses `.md`. Após editar um `.md`, rode:

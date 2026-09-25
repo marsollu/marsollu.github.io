@@ -19,6 +19,7 @@ DOCS = [
     ("equilibrium/privacy-en.md",   "equilibrium/privacy-en.html",   "en",    "Equilibrium"),
     ("meus-alugueis/privacy-pt.md", "meus-alugueis/privacy-pt.html", "pt-BR", "Aluguel Fácil"),
     ("kobe/privacy-pt.md",           "kobe/privacy-pt.html",           "pt-BR", "Kobe"),
+    ("despesas-pessoais/privacy-pt.md", "despesas-pessoais/privacy-pt.html", "pt-BR", "Despesas Pessoais"),
 ]
 
 SHELL = """<!DOCTYPE html>
