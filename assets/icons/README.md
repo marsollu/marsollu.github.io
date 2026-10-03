@@ -8,6 +8,7 @@ Coloque aqui os ícones (PNG) de cada app, **com exatamente estes nomes**:
 | `bioquiz.png` | BioQuiz |
 | `equilibrium.png` | Equilibrium |
 | `aluguel-facil.png` | Aluguel Fácil |
+| `despesas-pessoais.png` | Despesas Pessoais |
 
 ## Recomendações
 - Formato: **PNG** quadrado (proporção 1:1).
