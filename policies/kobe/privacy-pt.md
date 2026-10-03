@@ -1,10 +1,10 @@
 # Política de Privacidade - Kobe
 
-**Última Atualização: 11 de Setembro de 2026**
+**Última Atualização: 28 de Setembro de 2026**
 
 ## 1. Quem Somos
 
-O "Kobe" é um aplicativo de carteirinha digital de identidade e vacinação para pets.
+O "Kobe" é um aplicativo de carteirinha digital de identidade e vacinação para pets, disponível para Android e iOS. Ele funciona offline e sem cadastro.
 
 ## 2. Dados que Coletamos
 
@@ -14,7 +14,7 @@ Nós não coletamos diretamente dados pessoais identificáveis e não operamos s
 - Suas configurações e preferências são salvas localmente
 - Não exigimos cadastro, login, e-mail ou outras informações pessoais
 
-Utilizamos, porém, serviços do Google (Google Analytics para Firebase, Google AdMob e Google Play Faturamento) que coletam dados de uso, identificadores do dispositivo e informações de assinatura para fins de análise, publicidade e processamento de pagamentos, conforme descrito nas seções 4, 5 e 6 abaixo.
+Utilizamos, porém, serviços de terceiros (Google Analytics para Firebase, Firebase Crashlytics, Google AdMob, Google Play Faturamento, App Store da Apple e RevenueCat) que podem coletar dados de uso, identificadores do dispositivo e informações de assinatura para fins de análise, publicidade e processamento de pagamentos, conforme descrito nas seções 4, 5, 6 e 7 abaixo.
 
 ## 3. Armazenamento Local
 
@@ -37,7 +37,7 @@ O Firebase Analytics nos ajuda a entender, de forma agregada e anônima, como o 
 **Dados coletados automaticamente pelo Firebase Analytics:**
 
 - Identificador da instância do app (app-instance ID, um número aleatório que identifica a instalação e é redefinido ao reinstalar o app ou redefinir o ID de publicidade)
-- Identificador de publicidade do dispositivo (Advertising ID), quando disponível
+- Identificador de publicidade do dispositivo (Advertising ID no Android ou IDFA no iOS), quando disponível e permitido por você
 - Tipo, modelo e fabricante do dispositivo
 - Versão do sistema operacional
 - País/região aproximada (com base no endereço IP)
@@ -52,20 +52,21 @@ Esses dados são coletados e processados pelo Google de acordo com as políticas
 
 **Como desativar a coleta de análise:**
 
-- Você pode limitar o uso do seu Advertising ID e a personalização nas Configurações do dispositivo (em Android: **Configurações → Google → Anúncios**)
+- No Android, você pode limitar o uso do seu Advertising ID e a personalização nas Configurações do dispositivo (**Configurações → Google → Anúncios**)
+- No iOS, você pode negar ou revogar a permissão de rastreamento (veja a seção 5)
 - A redefinição do seu Advertising ID também redefine o identificador de instância do app usado pelo Firebase
 
 Também podemos receber relatórios automáticos quando o app trava ou apresenta erros, para corrigirmos problemas rapidamente. Esses relatórios contêm apenas informações técnicas do ocorrido e não incluem dados do seu pet, fotos ou informações do tutor.
 
 ### Google AdMob
 
-Na versão gratuita, exibimos anúncios através do Google Mobile Ads para manter o Kobe acessível. Assinantes do plano premium (veja a seção 5) não visualizam anúncios.
+Na versão gratuita, exibimos anúncios através do Google Mobile Ads para manter o Kobe acessível. Assinantes do Kobe PRO (veja a seção 6) não visualizam anúncios.
 
 ### Dados Coletados para Publicidade
 
 O Google AdMob pode coletar as seguintes informações do seu dispositivo:
 
-- Identificador de publicidade do dispositivo (Advertising ID)
+- Identificador de publicidade do dispositivo (Advertising ID no Android ou IDFA no iOS, este último somente se você permitir o rastreamento)
 - Endereço IP
 - Informações de localização aproximada (geolocalização)
 - Idioma do dispositivo
@@ -92,22 +93,65 @@ Você pode gerenciar suas preferências de publicidade:
 
 A política completa do Google está em https://policies.google.com/privacy
 
-## 5. Assinatura Premium (Google Play Faturamento)
+## 5. Transparência de Rastreamento no iOS (Apple ATT)
 
-O Kobe oferece um plano de assinatura opcional, com cobrança **mensal ou anual**, que libera o cadastro ilimitado de pets, o widget na tela inicial e remove os anúncios.
+No iPhone, o app segue o framework **App Tracking Transparency (ATT)** da Apple. Na primeira abertura, o sistema pergunta se você permite que o Kobe rastreie sua atividade em apps e sites de outras empresas.
 
-Todo o processamento de pagamento é feito pelo **Google Play Faturamento (Google Play Billing)**. Nós não temos acesso a dados de cartão de crédito, informações bancárias ou outros dados de pagamento — essas informações ficam exclusivamente com o Google.
+- **Se você permitir**, o identificador de publicidade (IDFA) poderá ser usado pelo Google AdMob para exibir anúncios mais relevantes e medir seu desempenho
+- **Se você não permitir**, o IDFA não é acessado e os anúncios exibidos não serão personalizados com base nesse identificador
+- Qualquer resposta é respeitada: o app não pergunta novamente e todas as funcionalidades continuam disponíveis
+- Você pode mudar a sua escolha quando quiser em **Ajustes → Privacidade e Segurança → Rastreamento**
+
+Para mais informações:
+
+- [Se um app pedir para rastrear sua atividade (Suporte da Apple)](https://support.apple.com/pt-br/102420)
+- [Política de Privacidade da Apple](https://www.apple.com/br/legal/privacy/)
+- [Privacidade do usuário e uso de dados na App Store](https://developer.apple.com/app-store/user-privacy-and-data-use/)
+
+## 6. Assinatura Kobe PRO (Google Play e App Store)
+
+O Kobe oferece um plano de assinatura opcional, o **Kobe PRO**, com cobrança **mensal ou anual**, que libera o cadastro ilimitado de pets, remove os anúncios e, no Android, libera o widget da carteirinha na tela inicial.
+
+Todo o processamento de pagamento é feito pela loja do seu aparelho: **Google Play Faturamento (Google Play Billing)** no Android e **App Store (Compras no App)** no iOS. Nós não temos acesso a dados de cartão de crédito, informações bancárias ou outros dados de pagamento — essas informações ficam exclusivamente com o Google ou com a Apple.
 
 **Como funciona:**
 
-- A assinatura é contratada, gerenciada, renovada e cancelada diretamente pela sua conta Google Play, em **Play Store → Menu → Pagamentos e assinaturas → Assinaturas**
-- A renovação é automática ao final de cada ciclo (mensal ou anual), salvo cancelamento prévio feito por você na Google Play
-- O app armazena localmente apenas o status da sua assinatura (ativa, expirada ou cancelada), para liberar ou não os recursos premium — esse status é verificado junto ao Google Play
-- Não guardamos histórico de cobranças, valores pagos ou dados do meio de pagamento em nossos sistemas, pois não operamos servidores próprios
+- A assinatura é contratada, gerenciada, renovada e cancelada diretamente pela sua conta da loja:
+    - **Android:** Play Store → Menu → Pagamentos e assinaturas → Assinaturas
+    - **iOS:** Ajustes → [seu nome] → Assinaturas
+- O pagamento é cobrado na sua conta Google Play ou Apple ID quando a compra é confirmada
+- A renovação é automática ao final de cada ciclo (mensal ou anual), salvo cancelamento feito por você com pelo menos 24 horas de antecedência do fim do período atual
+- O cancelamento passa a valer ao fim do período já pago; até lá, os recursos PRO continuam liberados
+- O status da sua assinatura (ativa ou expirada) é verificado junto à loja por meio do RevenueCat (veja abaixo), apenas para liberar ou não os recursos PRO
+- Não guardamos histórico de cobranças, valores pagos ou dados do meio de pagamento em sistemas próprios, pois não operamos servidores próprios
 
-Para dúvidas sobre cobranças, reembolsos ou cancelamento de assinatura, consulte a [Central de Ajuda do Google Play](https://support.google.com/googleplay) ou a [Política de Privacidade do Google](https://policies.google.com/privacy).
+### RevenueCat
 
-## 6. Terceiros e Parceiros
+Para validar compras e saber se a sua assinatura está ativa em qualquer uma das lojas, usamos o **RevenueCat**, um serviço especializado de gestão de assinaturas. O RevenueCat recebe apenas:
+
+- Um identificador anônimo do app, gerado aleatoriamente na instalação (não é seu nome, e-mail ou conta da loja)
+- Os comprovantes das compras feitas na Google Play ou na App Store (produto, data, valor, moeda e status da assinatura)
+- Informações técnicas básicas do dispositivo, como sistema operacional, versão do app, país e idioma
+
+O RevenueCat não recebe nenhum dado do seu pet. Mais detalhes na [Política de Privacidade do RevenueCat](https://www.revenuecat.com/privacy).
+
+### Cobranças, Reembolsos e Cancelamento
+
+Pedidos de reembolso são analisados pela loja onde a compra foi feita, conforme as regras de cada uma:
+
+- **Google Play:** [Cancelar, pausar ou modificar uma assinatura](https://support.google.com/googleplay/answer/7018481) · [Políticas de reembolso do Google Play](https://support.google.com/googleplay/answer/2479637)
+- **App Store:** [Cancelar uma assinatura da Apple](https://support.apple.com/pt-br/118428) · [Solicitar reembolso à Apple](https://reportaproblem.apple.com)
+
+## 7. Termos de Uso
+
+O uso do Kobe e da assinatura Kobe PRO também está sujeito aos termos da loja onde o app foi baixado:
+
+- **iOS:** o [Contrato de Licença de Usuário Final Padrão da Apple (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) funciona como os Termos de Uso do app e das assinaturas
+- **Android:** aplicam-se os [Termos de Serviço do Google Play](https://play.google.com/about/play-terms/)
+
+O Kobe organiza as informações que você registra. Ele não substitui a carteira de vacinação oficial emitida pelo médico veterinário nem orientação profissional.
+
+## 8. Terceiros e Parceiros
 
 ### Compartilhamento de Dados
 
@@ -117,7 +161,9 @@ Nós não vendemos seus dados pessoais para terceiros. No entanto, compartilhamo
 
 - **Google AdMob** - Para exibição e personalização de anúncios
 - **Google Analytics para Firebase** - Para análise de uso e melhoria do aplicativo
-- **Google Play Faturamento** - Para processamento de assinaturas e pagamentos
+- **Firebase Crashlytics** - Para relatórios de falhas do aplicativo
+- **Google Play Faturamento** e **App Store (Apple)** - Para processamento de assinaturas e pagamentos
+- **RevenueCat** - Para validação do status da assinatura
 
 ### Obrigações Legais
 
@@ -127,32 +173,32 @@ Os parceiros terceirizados se comprometem a:
 - Usar as informações apenas para os fins especificados
 - Manter a confidencialidade das informações
 
-## 7. Segurança
+## 9. Segurança
 
 Como tudo fica local no seu celular, a segurança depende principalmente do seu dispositivo. Recomendamos manter seu telefone protegido com senha ou biometria.
 
-## 8. Retenção de Dados
+## 10. Retenção de Dados
 
 Seus dados locais (pets, fotos, vacinas e histórico de saúde) desaparecem quando você desinstala o app. Você também pode excluir um pet ou limpar os dados a qualquer momento pelo próprio app.
 
-Os dados de análise, publicidade e assinatura tratados pelo Google (Firebase Analytics, AdMob e Google Play Faturamento) são retidos de acordo com as políticas do próprio Google.
+Os dados de análise, publicidade e assinatura tratados por terceiros (Firebase, AdMob, Google Play Faturamento, App Store e RevenueCat) são retidos de acordo com as políticas de cada um deles.
 
-## 9. Seus Direitos
+## 11. Seus Direitos
 
 Como todos os dados do seu pet são seus e locais:
 
 - Você tem acesso total aos seus dados
 - Você pode apagar tudo quando quiser
-- Você pode gerenciar ou cancelar sua assinatura a qualquer momento pela Google Play
+- Você pode gerenciar ou cancelar sua assinatura a qualquer momento pela Google Play ou pela App Store
 
-## 10. Crianças
+## 12. Crianças
 
 Este app não é direcionado para menores de 18 anos. Se você é responsável por uma criança usando este app, saiba que não coletamos dados dela.
 
-## 11. Mudanças nesta Política
+## 13. Mudanças nesta Política
 
-Podemos atualizar esta política quando necessário. Se houver mudanças importantes, informaremos você através do app ou play store.
+Podemos atualizar esta política quando necessário. Se houver mudanças importantes, informaremos você através do app ou da loja de aplicativos.
 
-## 12. Lei Aplicável
+## 14. Lei Aplicável
 
 Esta política segue as leis brasileiras, especialmente a LGPD (Lei Geral de Proteção de Dados).
